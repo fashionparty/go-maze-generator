@@ -1,0 +1,4 @@
+[maze]
+width = 30 # number of columns
+height = 15 # number of rows
+speed = 20 # iteration time in milliseconds. Note: Ebiten runs at 60 frames per second by default. Setting the speed to less than 16 milliseconds will have no effect, as the update frequency is capped by the frame rate.
